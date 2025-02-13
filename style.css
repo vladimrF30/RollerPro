@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    font-size: 35px;
+    left: 50px;
+    top: 10px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.3);
+    font-family: "Playfair Display", serif;
+}
+.R {
+    position: relative;
+    left: 10px;
+}
+.P {
+    position: relative;
+    left: 38px;
+    bottom: 28px;
+}
+header {
+    background: rgba(0, 0, 0, 0.1);
+}
+.menu ul li {
+    display: inline;
+    position: relative;
+    left: 45%;
+    bottom: 40px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    background-color: inherit;
+    color: black;
+    padding: 39px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+}
+a:hover {
+    background:rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+
